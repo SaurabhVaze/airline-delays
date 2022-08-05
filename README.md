@@ -51,7 +51,7 @@ I tried a KNN, decision tree and then a bagged tree model to determine which mod
 
 ## Model
 
-The KNN model proved most effective in accounting for variation, with an R^2 score on the test data of  ***(0.46)***, far higher than that of my bagged tree and decision tree models. The addition of PCA in the piopeline did not improve testing accuracy, and the speed of the process was not improved, either. It is evident that these values are relatively low, but this is likely a limitation from the data, rather than the model chosen. 
+The Decision Tree model proved most effective in accounting for variation, with an R^2 score on the test data of  ***(0.58)***, higher than that of my bagged tree and KNN models. The addition of PCA in the pipeline did not improve testing accuracy, and the speed of the process was not improved, either. It is evident that these accuracy metrics are low, but this is likely a limitation from the data, rather than the model chosen. 
 
 
 ## Recommendations:
